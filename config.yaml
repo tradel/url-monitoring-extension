@@ -1,0 +1,25 @@
+clientConfig:
+    maxConnTotal:    1000
+    maxConnPerRoute: 1000
+    ignoreSslErrors: true
+
+defaultParams:
+    method:          HEAD
+    socketTimeout:   30000
+    connectTimeout:  30000
+
+sites:
+
+- name:     Google
+  url:      http://www.google.com
+
+- name:     AppDynamics
+  url:      https://www.appdynamics.com
+
+- name:     Help
+  url:      https://help.appdynamics.com
+
+- name:     Demo controller
+  url:      https://controller3.demo.appdynamics.com/controller/rest/applications
+  username: demouser@customer1
+  password: apm13ad3r
