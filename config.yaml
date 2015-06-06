@@ -20,6 +20,6 @@ sites:
   url:      https://help.appdynamics.com
 
 - name:     Demo controller
-  url:      https://controller3.demo.appdynamics.com/controller/rest/applications
-  username: demouser@customer1
-  password: apm13ad3r
+  url:      http://localhost:8080/controller/rest/applications
+  username: user1@customer1
+  password: welcome
